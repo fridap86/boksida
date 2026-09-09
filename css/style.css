@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Caacupe+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+:root {
+  --main-bg-color: #fffcf2;
+  --title-font: "Caacupe One", sans-serif;
+  --main-font: "Roboto Condensed", sans-serif;
+}
+
+
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+h1, h2, h3 {
+    font-family: var(--title-font);
+}
+
+p {
+    font-family: var(--main-font);
+}
