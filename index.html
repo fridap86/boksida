@@ -31,35 +31,96 @@
 
             <!-- Hero -->
         <section>
-            <h1>En rubrik</h1>
+            <img src="img/bild.jpg" alt="...">
+            <div>
+                <h1>En rubrik</h1>
+                <p>Lite text här Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, blanditiis est tenetur nesciunt sed exercitationem optio pariatur voluptate velit sequi iure repellat atque modi rerum! Quod culpa ipsum nulla alias?</p>
+                <a href="#kop">Knapp här</a>
+            </div>
         </section>    
     
         <!-- Info-block -->
          <section>
             <article>
-                <h2>Om boken</h2>
+                <img src="img/bild.jpg" alt="...">
+                <div>
+                    <h2>Om boken</h2>
+                    <p>Text här</p>
+                </div>
             </article>
             <article>
-                <h2>Om författaren</h2>
+                <img src="img/bild.jpg" alt="...">
+                <div>
+                    <h2>Om författaren</h2>
+                    <p>Text här</p>
+                </div>
             </article>
          
          </section>
 
          <!-- Bokens innehåll -->
           <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+            <h2>Bokens innehåll</h2>
+            <article>
+                <img src="img/bild.jpg" alt="...">
+                <h3>Kapitel 1</h3>
+                <p>Lite text</p>
+            </article>
+            <article>
+                <img src="img/bild.jpg" alt="...">
+                <h3>Kapitel 2</h3>
+                <p>Lite text</p>
+            </article>            
+            <article>
+                <img src="img/bild.jpg" alt="...">
+                <h3>Kapitel 3</h3>
+                <p>Lite text</p>
+            </article>            
+            <article>
+                <img src="img/bild.jpg" alt="...">
+                <h3>Kapitel 4</h3>
+                <p>Lite text</p>
+            </article>            
+            <article>
+                <img src="img/bild.jpg" alt="...">
+                <h3>Kapitel 5</h3>
+                <p>Lite text</p>
+            </article>            
+            <article>
+                <img src="img/bild.jpg" alt="...">
+                <h3>Kapitel 6</h3>
+                <p>Lite text</p>
+            </article>
           </section>
 
-          <!-- Köp nu -->
-           <section>
-            <form>
+          <!-- Köp -->
+           <section id="kop">
+            <h2>Köp boken här</h2>
+            <div>
+                <img src="img/bild.jpg" alt="...">
+                <form>
+                    <label for="antal">Antal</label>
+                    <input type="number" id="antal" name="antal" required>
 
-            </form>
+                    <label for="namn">Namn</label>
+                    <input type="text" id="namn" name="namn" required>
+
+                    <label for="adress">Adress</label>
+                    <input type="text" id="adress" name="adress" required>
+
+                    <label for="postnummer">Postnummer</label>
+                    <input type="text" id="postnummer" name="postnummer" required>
+
+                    <label for="postort">Postort</label>
+                    <input type="text" id="postort" name="postort" required>
+
+                    <input type="checkbox" id="villkor" name="villkor" required>
+                    <label for="villkor">Jag accepterar villkoren</label>
+
+                    <button type="submit">Köp</button>
+
+                </form>
+            </div>
            </section>
     </main>
     
